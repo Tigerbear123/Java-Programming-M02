@@ -5,13 +5,15 @@
 public class Main {
 	/** Main method (Every program has one) */
 	public static void main(String[] args) {
-		// Create two MyDate objects
+		// Create two MyDate objects. This is current date
 		MyDate date1 = new MyDate();
+		// This is the future date
 		MyDate date2 = new MyDate(34355555133101L);
 
-		// This prints out the two dates in the console
+		// This prints out the two dates in the console. This is current date
 		System.out.println("Date1: " + date1.getMonth() + "/" + date1.getDay() + 
 			"/" + date1.getYear());
+		// This is future date
 		System.out.println("Date2: " + date2.getMonth() + "/" + date2.getDay() + 
 			"/" + date2.getYear());
 	}
