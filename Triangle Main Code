@@ -1,8 +1,11 @@
 //This program creates a triangle and 
 //prompts the user to enter its side
 //measurements, the color, and if it's 
-//filled. This part of the program is 
-//the main method.
+//filled. The triangle's perimeter and 
+//area will also be shown in the console.
+//This part of the program is the main method
+//that prompts the user with the questions
+//and creates the triangle.
 
 import java.util.Scanner;
 
