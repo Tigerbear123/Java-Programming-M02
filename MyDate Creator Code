@@ -1,3 +1,6 @@
+//This part of the program produces two dates. 
+//
+
 public class Main {
 	/** Main method */
 	public static void main(String[] args) {
