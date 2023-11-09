@@ -1,7 +1,8 @@
 //This part of the program is where 
 //all the features prompted to the 
 //user about the triangle will be 
-//retrieved. 
+//retrieved. It also extends to the 
+//GeometricObject file.
 
 public class Triangle extends GeometricObject {
 	private double side1; 
