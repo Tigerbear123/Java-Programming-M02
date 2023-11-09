@@ -1,3 +1,6 @@
+// This part of the program is where the dates
+// will be retrieved. 
+
 import java.util.GregorianCalendar;
 
 // Implement MyDate class
