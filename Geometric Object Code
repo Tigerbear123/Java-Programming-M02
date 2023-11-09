@@ -1,4 +1,7 @@
 //This part of the program is where
+//all features of the triangle will 
+//be created and extended to the 
+//Triangle Class file. 
 
 public abstract class GeometricObject {
 	private String color = "white";
