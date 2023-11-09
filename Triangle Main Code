@@ -1,3 +1,9 @@
+//This program creates a triangle and 
+//prompts the user to enter its side
+//measurements, the color, and if it's 
+//filled. This part of the program is 
+//the main method.
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,7 +12,7 @@ public class Main {
 		// Create a Scanner
 		Scanner input = new Scanner(System.in);
 
-		// Prompt the user to enter three sides of a triangle a color 
+		// Prompt the user to enter three sides of a triangle, its color 
 		// and a Boolean value to indicate whether the triangle is filled
 		System.out.print("Enter three sides of the triangle: ");
 		double side1 = input.nextDouble();
