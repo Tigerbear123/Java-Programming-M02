@@ -1,6 +1,9 @@
-//This part of the program produces two 
-//MyDate objects and prints out the two
-//dates in the console.
+//This program shows the current date and
+//future date that will occur equal to the 
+//elapsed time in milliseconds since midnight
+//of January 1, 1970. This part of the program 
+//produces two MyDate objects and prints out the 
+//two dates in the console.
 
 public class Main {
 	/** Main method (Every program has one) */
