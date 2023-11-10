@@ -1,0 +1,32 @@
+//This program has the user type in 
+//a binary string of numbers (8) and
+//add according to the places where
+//the number 1 is shown. Note that
+//0 is null and 1 holds a value that
+//doubles the farther left it is. This
+//part of the program is the main method
+//that measures the length of the binary, 
+//accepts only 0 and 1 in the string, 
+//doubles the binary digits appropriately, 
+//and returns the digit to the console.
+
+public class Main {
+  /* Main method (every program has one) */
+	public static int bin2Dec(String binaryString) throws BinaryFormatException {
+    //The digits are initially assigned 0
+		int number = 0;
+    //This for loop is for binary string length
+		for (int i = 0, j = binaryString.length() - 1; 
+			i < binaryString.length(); i++, j--) {
+      //This boolean will check if the characters aren't 0 or 1
+			if (binaryString.charAt(i) < '0' || binaryString.charAt(i) > '1')
+        //This will throw out an invalid message on console
+				throw new BinaryFormatException(binaryString);
+      //This will double the digit of the binary depending on place
+			number += (Integer.parseInt(String.valueOf(binaryString.charAt(i)))) 
+				* Math.pow(2, j);
+		}
+    //The digit is returned successfully
+		return number;
+	} 
+}
