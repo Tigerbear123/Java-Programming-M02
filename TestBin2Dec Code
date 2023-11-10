@@ -1,0 +1,25 @@
+//This part of the program is
+//prompting the user and
+//the console showing the 
+//binaries.
+
+import java.util.Scanner;
+
+/** This interacts with the user */
+public class TestBin2Dec {
+	public static void main(String[] args) {
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+
+		// Prompt the user to enter a binary string
+		System.out.print("Enter a binary: ");
+    // Legitimate binary
+		try {
+			System.out.println(Main.bin2Dec(input.nextLine()));
+		}
+    // Illegitimate binary
+		catch (NumberFormatException ex) {
+			System.out.println(ex.getMessage());
+		}
+	}
+}
